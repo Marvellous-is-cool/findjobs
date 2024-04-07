@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "name": "findJobs",
+    "slug": "findJobs",
+    "icon": "assets/icons/Icon.png",
+    "version": "1.0.2",
+    "splash": {
+      "image": "assets/icons/Icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "0ad2f4a8-b8b5-42e3-88da-aaa3c4b4d2ae"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/0ad2f4a8-b8b5-42e3-88da-aaa3c4b4d2ae"
+    },
+    "android": {
+      "package": "com.coolbuoy.findJobs"
+    },
+    "ios": {}
+  }
+}
